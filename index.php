@@ -14,7 +14,7 @@ include("dbconnect.php");
 			<?php
 			  if(isset($_POST['submit'])){
 				$fullname = $_POST['fullname'];
-				$username = $_POST['username'];
+				$username = strtolower($_POST['username']);
 				$password = $_POST['password'];
 				if(empty($fullname)){
 					echo "<p class='message'>You forgot to enter your fullname</p>";

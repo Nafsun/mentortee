@@ -12,7 +12,7 @@ include("dbconnect.php");
 		<div id="mentor-mentee">
 			<?php
 			  if(isset($_POST['login'])){
-				$username = $_POST['username'];
+				$username = strtolower($_POST['username']);
 				$password = $_POST['password'];
 				if(empty($username)){
 					echo "<p class='message'>You forgot to enter your username</p>";
