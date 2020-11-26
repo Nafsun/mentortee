@@ -7,6 +7,7 @@ include("dbconnect.php");
 		<title>Mentor & Mentee</title>
 		<link rel="stylesheet" href="style.css">
 		<script type="text/javascript" src="javascript.js"></script>
+		<?php include("head.php"); ?>
 	</head>
 	<body>
 		<div id="mentor-mentee">
