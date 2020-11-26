@@ -1,0 +1,55 @@
+a:link{
+    text-decoration:none;
+    color:red;
+}
+a:visited{
+    text-decoration:none;
+    color:red;
+}
+a:hover{
+    text-decoration:underline;
+    color:black;
+}
+a:active{
+    text-decoration:none;
+    color:red;
+}
+#mentor-mentee{
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:100px;
+	background-color: lightgray;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-radius:5px;
+}
+.message{
+	color:red;
+	background-color: white;
+	padding:10px;
+}
+.message2{
+	color:white;
+	background-color: black;
+	padding:10px;
+}
+.message3{
+	color:black;
+	background-color: white;
+	padding:10px;
+}
+.textinput{
+	padding:5px;
+	border-radius:2px;
+	border-width:1px;
+}
+.submiter{
+	width:100px;
+}
+table{
+	width:80%;
+	margin-bottom:10px;
+	background-color:white;
+	border-radius:2px;
+}
